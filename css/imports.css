@@ -1,0 +1,148 @@
+@import url('gumby.hybrid.css');
+@import url('ui.css');
+@import url('style.css');
+@import url('stickyfooter.css');
+* { font-family:Helvetica, Arial; }
+#wrap {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+.confirmation-field {
+	display: none;
+}
+.stripeContainer {
+	height: 54px;
+    width: 100%; 
+    background-color: #0596aa;
+}
+h1 {
+	color: #484848;
+	font-size: 34px;
+	font-weight: bold;
+	border: 0;
+	line-height: 40px;
+}
+h2 {
+	font-size: 2em;
+	font-weight: normal;
+	margin-bottom: 3px;
+	color: #1b1b1b;
+	line-height: 1em;
+}
+img.logo {
+}
+a {
+	color: #408791;
+	cursor: pointer;
+	text-decoration: none;
+}
+a:hover {
+	color: #F46D7B;
+}
+.gallery-play-video {
+	width: 50px;
+	height: 49px;
+	background: url(../img/play_button_sprite.png) no-repeat 0 0;
+	display: block;
+	overflow: hidden;
+	top: -58px;
+	position: relative;
+	left: 70px;
+}
+.gallery-play-video:hover {
+	background: url(../img/play_button_sprite.png) no-repeat 0 -50px;
+}
+#videodesc {
+	min-height: 200px;
+}
+.playlistItem {
+	margin-bottom: 25px;
+	height: 71px;
+}
+.playlistItem.active {
+	background-color: rgb(235, 235, 235);
+}
+.thumbsdetails {
+	width: 55%;
+	float: right;
+}
+.thumbsdetailsTitle {
+	font-size: 12px;
+	margin-bottom: 6px;
+	padding-top: 4px;
+	line-height: 1.2em;
+	color:#000000;
+	font-weight: bold;
+	display: block;
+}
+.thumbsdetailsName {
+	display: block;
+	font-size: 10px;
+	color: #000000;
+	font-weight: bold;
+	width: 100%;
+}
+.thumbLink {
+	float: left;
+	height: 70px;
+	width: 120px;
+}
+.thumbsdetailsLink {
+	font-size: 16px;
+	font-weight: bold;
+	color: #0596aa;
+}
+.thumbsdetailsLink:hover {
+	color: #095d6c;
+}
+ul.thankyoulist li {
+	background: url(../img/bullet.gif) 0 0 no-repeat;
+	padding-left: 18px;
+	list-style-type: none;
+	margin: 18px 3px;
+	list-style-position: outside;
+	line-height: 1.1em;
+}
+form label.checkbox {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#button-bar {
+	width: 960px;
+	margin: 0 auto;
+}
+#top-action-buttons {
+	text-align: right;
+	padding: 0;
+	margin: 0;
+	z-index: 0;
+	position: relative;
+}
+#top-action-buttons li {
+	display: inline-block;
+	zoom: 1;
+	padding: 0;
+	margin: 0;
+	z-index: 0;
+}
+#top-action-buttons li a {
+	line-height: 999px;
+	overflow: hidden;
+	display: block;
+	z-index: 0;
+}
+#top-action-buttons li.free-trial-button a {
+	width: 154px;
+	margin-right: 10px;
+	height: 53px;
+	background: url(http://corp.kaltura.com/sites/all/themes/kaltura_theme/images/sprite.png) 0 -149px;
+}
+#top-action-buttons li.contact-sales-button a {
+	background: url(http://corp.kaltura.com/sites/all/themes/kaltura_theme/images/sprite.png) -170px -149px;
+	height: 53px;
+	width: 100px;
+}
+#top-action-buttons li.contact-sales-button a:hover { background: url(http://corp.kaltura.com/sites/all/themes/kaltura_theme/images/sprite.png) -170px -96px }
+#top-action-buttons li.free-trial-button a:hover { background: url(http://corp.kaltura.com/sites/all/themes/kaltura_theme/images/sprite.png) 0 -96px }
